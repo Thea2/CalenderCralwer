@@ -1,0 +1,318 @@
+1533535617227	geckodriver	INFO	Listening on 127.0.0.1:37497
+1533535618280	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.t86u8IwCKr63
+1533535618281	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1533535618332	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38955
+1533535632985	Marionette	INFO	Listening on port 2828
+[Parent 5405, Gecko_IOThread] WARNING: pipe error (57): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1533535656705	geckodriver	INFO	Listening on 127.0.0.1:60203
+1533535657757	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OzSfdRXJ9goD
+1533535657758	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1533535657807	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41309
+1533535662197	Marionette	INFO	Listening on port 2828
+1533535872988	geckodriver	INFO	geckodriver 0.21.0
+1533535872993	geckodriver	INFO	Listening on 127.0.0.1:55835
+1533535874058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yQnAIyr6Xf6O"
+[Parent 5672, Gecko_IOThread] WARNING: pipe error (70): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1533535877926	Marionette	INFO	Listening on port 42504
+1533535877972	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6094, Gecko_IOThread] WARNING: pipe error (89): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533535965218	geckodriver	INFO	geckodriver 0.21.0
+1533535965223	geckodriver	INFO	Listening on 127.0.0.1:52384
+1533535966228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M9KYpzyJlE7c"
+1533535969513	Marionette	INFO	Listening on port 44529
+1533535969542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533535995533	geckodriver	INFO	geckodriver 0.21.0
+1533535995541	geckodriver	INFO	Listening on 127.0.0.1:49620
+1533535996544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TpfB4tuD9yQo"
+1533535999976	Marionette	INFO	Listening on port 38479
+1533536000065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533536169739	geckodriver	INFO	geckodriver 0.21.0
+1533536169744	geckodriver	INFO	Listening on 127.0.0.1:60277
+1533536169853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SD1dFtPxCtak"
+1533536173060	Marionette	INFO	Listening on port 34692
+1533536173166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pmd.ipinyou.com/ihg/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 6649, Gecko_IOThread] WARNING: pipe error (70): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1533537140866	geckodriver	INFO	geckodriver 0.21.0
+1533537140871	geckodriver	INFO	Listening on 127.0.0.1:44856
+1533537141873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.29SQnXUkWkfd"
+1533537145613	Marionette	INFO	Listening on port 32850
+1533537145691	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 6958, Gecko_IOThread] WARNING: pipe error (83): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533537237937	geckodriver	INFO	geckodriver 0.21.0
+1533537237943	geckodriver	INFO	Listening on 127.0.0.1:33352
+1533537238942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5AasfKvO3qB5"
+1533537242959	Marionette	INFO	Listening on port 36141
+1533537243055	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533538827200	geckodriver	INFO	geckodriver 0.21.0
+1533538827205	geckodriver	INFO	Listening on 127.0.0.1:56975
+1533538828205	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sPD1HP5rubOQ"
+1533538831290	Marionette	INFO	Listening on port 41138
+1533538831329	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8465, Gecko_IOThread] WARNING: pipe error (86): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533538920544	geckodriver	INFO	geckodriver 0.21.0
+1533538920549	geckodriver	INFO	Listening on 127.0.0.1:57389
+1533538921554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YoBqShIsP0Ev"
+1533538924874	Marionette	INFO	Listening on port 33778
+1533538924965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533542490444	geckodriver	INFO	geckodriver 0.21.0
+1533542490449	geckodriver	INFO	Listening on 127.0.0.1:46376
+1533542491449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JT1GbUMkJKps"
+1533542494558	Marionette	INFO	Listening on port 39061
+1533542494685	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12675, Gecko_IOThread] WARNING: pipe error (69): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1533542560344	geckodriver	INFO	geckodriver 0.21.0
+1533542560349	geckodriver	INFO	Listening on 127.0.0.1:53561
+1533542561356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wMqRqgKYFHgH"
+1533542564795	Marionette	INFO	Listening on port 33979
+1533542564875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533542636719	geckodriver	INFO	geckodriver 0.21.0
+1533542636725	geckodriver	INFO	Listening on 127.0.0.1:57247
+1533542637731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lDMfXPvK1j5M"
+1533542640991	Marionette	INFO	Listening on port 36828
+1533542641043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533542726892	geckodriver	INFO	geckodriver 0.21.0
+1533542726897	geckodriver	INFO	Listening on 127.0.0.1:48920
+1533542727898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AZqyQ1JXxjl4"
+1533542731739	Marionette	INFO	Listening on port 44637
+1533542731922	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 13462, Gecko_IOThread] WARNING: pipe error (62): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 13159, Gecko_IOThread] WARNING: pipe error (75): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12939, Gecko_IOThread] WARNING: pipe error (68): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533542918603	geckodriver	INFO	geckodriver 0.21.0
+1533542918608	geckodriver	INFO	Listening on 127.0.0.1:44582
+1533542918643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HjMZyejauonS"
+1533542923434	Marionette	INFO	Listening on port 43403
+1533542923464	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13804, Gecko_IOThread] WARNING: pipe error (63): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533544459807	geckodriver	INFO	geckodriver 0.21.0
+1533544459812	geckodriver	INFO	Listening on 127.0.0.1:37907
+1533544460813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0A2hGsvaMJOv"
+1533544464001	Marionette	INFO	Listening on port 44871
+1533544464036	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15249, Gecko_IOThread] WARNING: pipe error (69): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533545356605	geckodriver	INFO	geckodriver 0.21.0
+1533545356610	geckodriver	INFO	Listening on 127.0.0.1:58717
+1533545357617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SM406PB2ZeDg"
+1533545360902	Marionette	INFO	Listening on port 42094
+1533545360944	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 16339, Gecko_IOThread] WARNING: pipe error (69): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533545652592	geckodriver	INFO	geckodriver 0.21.0
+1533545652596	geckodriver	INFO	Listening on 127.0.0.1:50936
+1533545653603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5U1LzHjPggLW"
+1533545656861	Marionette	INFO	Listening on port 39176
+1533545656919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533546002210	geckodriver	INFO	geckodriver 0.21.0
+1533546002215	geckodriver	INFO	Listening on 127.0.0.1:33319
+1533546003215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fzlWhpJ3Wbs9"
+1533546006325	Marionette	INFO	Listening on port 34212
+1533546006429	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17021, Gecko_IOThread] WARNING: pipe error (73): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16676, Gecko_IOThread] WARNING: pipe error (70): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533546143676	geckodriver	INFO	geckodriver 0.21.0
+1533546143681	geckodriver	INFO	Listening on 127.0.0.1:55216
+1533546144681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ioaUQULtozU8"
+1533546147671	Marionette	INFO	Listening on port 40407
+1533546147717	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533546591436	geckodriver	INFO	geckodriver 0.21.0
+1533546591440	geckodriver	INFO	Listening on 127.0.0.1:34427
+1533546592446	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wRSZee2ebfg4"
+1533546595793	Marionette	INFO	Listening on port 45846
+1533546595868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533546766069	geckodriver	INFO	geckodriver 0.21.0
+1533546766074	geckodriver	INFO	Listening on 127.0.0.1:54134
+1533546767076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Bbl855CF8l6t"
+1533546770385	Marionette	INFO	Listening on port 42698
+1533546770489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533547197296	geckodriver	INFO	geckodriver 0.21.0
+1533547197301	geckodriver	INFO	Listening on 127.0.0.1:44217
+1533547198297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aj82jaO1MvcG"
+1533547203554	Marionette	INFO	Listening on port 34898
+1533547203624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533547372334	geckodriver	INFO	geckodriver 0.21.0
+1533547372365	geckodriver	INFO	Listening on 127.0.0.1:53988
+1533547373370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0MI6edethtKy"
+1533547378831	Marionette	INFO	Listening on port 34481
+1533547378893	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533547467916	geckodriver	INFO	geckodriver 0.21.0
+1533547467921	geckodriver	INFO	Listening on 127.0.0.1:54847
+1533547468921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YOt3EwfsplZC"
+1533547472659	Marionette	INFO	Listening on port 40711
+1533547472739	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x550027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 19026, Gecko_IOThread] WARNING: pipe error (64): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 19332, Gecko_IOThread] WARNING: pipe error (70): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533547717760	geckodriver	INFO	geckodriver 0.21.0
+1533547717764	geckodriver	INFO	Listening on 127.0.0.1:50367
+1533547718773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.47GrYqpmQtax"
+1533547721918	Marionette	INFO	Listening on port 44016
+1533547721992	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19688, Gecko_IOThread] WARNING: pipe error (70): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533547919677	geckodriver	INFO	geckodriver 0.21.0
+1533547919682	geckodriver	INFO	Listening on 127.0.0.1:40971
+1533547920689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HYCh9adQHekh"
+1533547923880	Marionette	INFO	Listening on port 34014
+1533547923920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533548025004	geckodriver	INFO	geckodriver 0.21.0
+1533548025009	geckodriver	INFO	Listening on 127.0.0.1:42404
+1533548026015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bgBJKYIWUHp3"
+1533548029303	Marionette	INFO	Listening on port 35597
+1533548029329	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20242, Gecko_IOThread] WARNING: pipe error (68): 连接被对方重设: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
