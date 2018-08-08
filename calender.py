@@ -36,23 +36,13 @@ def get_month_dict(source, cur_days, cur_week, year, month, last_month_day=0, la
     print "days: ", len(days)
     xiu_pattern = re.compile('wnrl_riqi_xiu')
     ban_pattern = re.compile('wnrl_riqi_ban')
-    holiday_pattern_one = re.compile('<span class="wnrl_td_bzl wnrl_td_bzl_lv">(.*?)</span>')
-    holiday_pattern_two = re.compile('<span class="wnrl_td_bzl wnrl_td_bzl_hong">(.*?)</span>')
+    lunar_holiday_pattern = re.compile('<span class="wnrl_td_bzl wnrl_td_bzl_lv">(.*?)</span>')
+    holiday_pattern = re.compile('<span class="wnrl_td_bzl wnrl_td_bzl_hong">(.*?)</span>')
     month_dict = {}
 
     day_num = 1
     for day in days:
         day_dict = {}
-        # 是否是节日，如果是保存其节日名称，否则保存-1
-        holiday = re.findall(holiday_pattern_one, day)
-        if len(holiday) != 0:
-            day_dict['traditional_holiday'] = holiday[0]
-        else:
-            holiday = re.findall(holiday_pattern_two, day)
-            if len(holiday) != 0:
-                day_dict['traditional_holiday'] = holiday[0]
-            else:
-                day_dict['traditional_holiday'] = -1
         # 是否是工作日
         ban = len(re.findall(ban_pattern, day))
         if ban != 0:
@@ -82,6 +72,18 @@ def get_month_dict(source, cur_days, cur_week, year, month, last_month_day=0, la
             day_num = '0' + str(day_num)
         day_str = year + '-' + month + '-' + str(day_num)
         day_dict['date'] = day_str
+        # 是否是节气日，如果是保存其节气名称，否则保存-1
+        holiday = re.findall(lunar_holiday_pattern, day)
+        if len(holiday) != 0:
+            day_dict['lunar_holiday'] = holiday[0]
+        else:
+            day_dict['lunar_holiday'] = -1
+        # 是否是节日，如果是保存其节日名称，否则保存-1
+        holiday = re.findall(holiday_pattern, day)
+        if len(holiday) != 0:
+            day_dict['traditional_holiday'] = holiday[0]
+        else:
+            day_dict['traditional_holiday'] = -1
 
         month_dict[cur_days] = day_dict
 
@@ -154,6 +156,50 @@ def count_next_workday(year_dict):
     return year_dict
 
 
+def alter_holiday(year_dict):
+    """
+    修改日历中的节假日，使每天的节假日对应其节日名称
+    选取节日名称顺序规则：1.当天节日-》2.附近节日-》3.当天节气-》4.附近节气
+    :param year_dict:
+    :return:
+    """
+    for i in range(1, len(year_dict) + 1):
+        # 如果当天是节假日
+        if year_dict[i]['is_holiday'] == 1:
+            # 若当天不是节日
+            if year_dict[i]['traditional_holiday'] == -1:
+                is_find = False  # 记录是否找到节日名称
+                for num in range(i - 7, i + 8):
+                    if (num > 0) and (num < len(year_dict)):
+                        # 附近节日
+                        if year_dict[num]['is_holiday'] == 1:
+                            if year_dict[num]['traditional_holiday'] != -1:
+                                year_dict[i]['traditional_holiday'] = year_dict[num]['traditional_holiday']
+                                # 测试
+                                if (year_dict[num + 1]['is_holiday'] == 1) \
+                                        and (year_dict[num + 1]['traditional_holiday'] != -1):
+                                    year_dict[i]['traditional_holiday'] = year_dict[num + 1]['traditional_holiday']
+                                is_find = True
+                                break
+                if not is_find:
+                    if year_dict[i]['lunar_holiday'] != -1:
+                        # 当天节气
+                        year_dict[i]['traditional_holiday'] = year_dict[i]['lunar_holiday']
+                    else:
+                        for num in range(i - 7, i + 8):
+                            if (num > 0) and (num < (len(year_dict) + 1)):
+                                # 附近节气
+                                if year_dict[num]['is_holiday'] == 1:
+                                    if year_dict[num]['lunar_holiday'] != -1:
+                                        year_dict[i]['traditional_holiday'] = year_dict[num]['lunar_holiday']
+                                        break
+
+        if year_dict[i]['traditional_holiday'] == -1:
+            if year_dict[i]['lunar_holiday'] != -1:
+                year_dict[i]['traditional_holiday'] = year_dict[i]['lunar_holiday']
+    return year_dict
+
+
 def my_main(year_need):
     """
     需要爬取某一年的日历
@@ -199,7 +245,8 @@ def my_main(year_need):
     month_dict, sum_day, sum_week = get_month_dict(source, sum_day, sum_week, str(year_need + 1), "01")
     year_dict = dict(year_dict.items() + month_dict.items())
 
-    # 统计
+    # 修整与统计
+    year_dict = alter_holiday(year_dict)
     year_dict = count_next_workday(year_dict)
     year_dict = count_week_holiday(year_dict)
     print year_dict

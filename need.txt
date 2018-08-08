@@ -12,6 +12,7 @@
             "week_holiday":0-7(本周的节假日有几天),
             "next_workday":(int,距离下一个工作日有几天，当天为工作日且下一天为工作日时赋值0),
             "traditional_holiday":传统节日名称/-1（当天不是传统节日）
+            "lunar_holiday":节气名称/-1（当天不是节气日）
         },
         ......
     },
